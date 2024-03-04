@@ -1,0 +1,16 @@
+html, body {
+  margin-top: 5px;
+}
+
+.remove-scrollbar {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.remove-scrollbar::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
